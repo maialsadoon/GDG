@@ -1,0 +1,16 @@
+// script.js
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    let email = document.getElementById('email').value;
+    let subject = document.getElementById('subject').value;
+    let message = document.getElementById('message').value;
+    
+    if (!email || !subject || !message) {
+        alert('Please fill out all required fields.');
+        return;
+    }
+    
+    alert('Your message has been submitted successfully!');
+    document.getElementById('contact-form').reset();
+});
