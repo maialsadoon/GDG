@@ -1,1 +1,127 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.form-container {
+    width: 50%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.red { color: red; }
+.green { color: green; }
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.graphic {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.bar {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.form-container {
+    width: 400px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.red { color: #d93232; }
+.green { color: #18832e; }
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.submit-btn {
+    background-color: white;
+    color: #d93232;
+    font-weight: bold;
+    border: 2px solid #d93232;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.submit-btn:hover {
+    background-color: #d93232;
+    color: white;
+}
+.image-container img {
+    width: 300px;
+    height: auto;
+}
